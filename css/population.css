@@ -1,0 +1,44 @@
+head, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(202, 207, 207, 0.3);
+}
+form {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 15% 0 15%;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+#dropdown {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+#dropdown>div>select {
+    width: 80%;
+}
+main {
+    margin: 0 15% 0 15%;
+}
+table {
+    text-align: center;
+}
+table th {
+    background-color: white;
+}
+table tr:nth-child(even) {
+    background-color: #BBEBEE;
+}
+table tr:nth-child(odd) {
+    background-color: #E8F8F9;
+}
+tfoot>tr>th, tfoot>tr>td {
+    background-color: #74C6FF;
+}
